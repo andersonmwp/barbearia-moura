@@ -37,16 +37,16 @@
         padding: 20px 0;
         width: 400px;
     }
-
-    .chamada__botao:hover {
-        background: #ffffff;
-        border: 2px solid #000000;
-        transition: 1s background;
-    }
 }
 
 @media screen and (min-width: 1024px) {
     .chamada__logo {
         width: 12%; 
+    }
+
+    .chamada__botao:hover {
+        background: #ffffff;
+        border: 2px solid #000000;
+        transition: 1s background;
     }
 }
