@@ -1,0 +1,44 @@
+.chamada {
+    align-items: center;
+    display: flex;
+    background: var(--cor-padrao);
+    flex-direction: column;
+}
+
+.chamada__logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    max-width: 400px;
+}
+
+.chamada__texto {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.chamada__botao {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__texto{
+        font-size: 3rem;
+    }
+
+    .chamada__botao {
+        font-size: 3rem;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada__logo {
+        width: 12%; 
+    }
+}
