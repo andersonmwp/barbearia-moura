@@ -35,6 +35,13 @@
     .chamada__botao {
         font-size: 3rem;
         padding: 20px 0;
+        width: 400px;
+    }
+
+    .chamada__botao:hover {
+        background: #ffffff;
+        border: 2px solid #000000;
+        transition: 1s background;
     }
 }
 
