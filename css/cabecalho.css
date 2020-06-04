@@ -6,7 +6,7 @@
 }
 
 .cabecalho__nav {
-    background: #ffff00;
+    background: var(--cor-secundaria);
     padding: 1rem;
     margin: 0;
     height: 100%;
