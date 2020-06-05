@@ -1,6 +1,8 @@
 .painel {
     align-items: center;
 
+    background: var(--cor-secundaria);
+
     display: flex;
 
     flex-direction: column;
