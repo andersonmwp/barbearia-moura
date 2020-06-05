@@ -1,0 +1,29 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape__imagem {
+    width: 100px;
+    height: 150px;
+    margin: 30px 0;
+}
+
+.rodape__texto {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__imagem {
+        width: 150px;
+        height: 250px;
+    }
+    
+    .rodape__texto {
+        font-size: 1.5rem;
+    }
+}
