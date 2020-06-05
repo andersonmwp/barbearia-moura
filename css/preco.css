@@ -12,10 +12,14 @@
     font-weight: 700;
     text-transform: uppercase;
     margin: 1.5rem 0;
+    background: #000000;
+    padding: 10px;
+    color: #E5D700;
 }
 
 .preco__painel-texto {
     font-size: 1.5rem;
+    font-weight: 700;
     text-align: center;
     padding-bottom: 1.5rem;
 }
@@ -27,10 +31,10 @@
     margin: 1.5rem 0;
     box-sizing: border-box;
     padding: 1rem 0;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 150px;
-    width: 330;
+    width: 330px;
 }
 
 .preco__cartao-imagem {
@@ -47,11 +51,11 @@
 
 @media screen  and (min-width: 768px) {
     .preco__painel-titulo { 
-        font-size: 3rem;
+        font-size: 40px;
     }
 
     .preco__painel-texto {
-        font-size: 2rem;
+        font-size: 30px;
     }
    
     .preco__cartao {
@@ -60,7 +64,7 @@
     } 
 
     .preco__cartao-texto {
-        font-size: 1.75rem;
+        font-size: 30px;
     }
 
     .preco__cartao-imagem {
@@ -83,6 +87,6 @@
     }
 
     .preco__cartao-texto {
-        font-size: 2rem;
+        font-size: 30px;
     }
 }

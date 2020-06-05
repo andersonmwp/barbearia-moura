@@ -17,6 +17,9 @@
     font-weight: 700;
     margin: 20px 10px;
     text-align: center;
+    background: #000000;
+    padding: 10px;
+    color: #E5D700;
 }
 
 .chamada__botao {
@@ -29,13 +32,15 @@
 
 @media screen and (min-width: 768px) {
     .chamada__texto{
-        font-size: 3rem;
+        font-size: 50px;
+        padding: 10px;
     }
 
     .chamada__botao {
-        font-size: 3rem;
+        font-size: 25px;
         padding: 20px 0;
         width: 400px;
+        font-size: 35px;
     }
 }
 

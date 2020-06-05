@@ -17,6 +17,11 @@
     text-transform: uppercase;
 
     margin: 50px 0;
+    padding: 10px;
+
+    background: #000000;
+    
+    color: #ffffff;
 }
 
 .painel__cartao {
@@ -46,11 +51,11 @@
 
 @media screen and (min-width: 768px) {
     .painel__titulo {
-        font-size: 3rem;
+        font-size: 40px;
     }
 
     .painel__cartao-texto {
-        font-size: 2.5rem;
+        font-size: 35px;
 
         padding-bottom: 100px;
     }
@@ -78,7 +83,7 @@
     }
 
     .painel__cartao-texto {
-        font-size: 1.5rem;
+        font-size: 25px;
         
         padding-bottom: 100px;
     }

@@ -16,10 +16,14 @@
     font-family: var(--fonte-titulo);
     text-transform: uppercase;
     margin: 2rem 0;
+    background: #000000;
+    padding: 10px;
+    color: #E5D700; 
 }
 
 .formulario__texto {
     font-size: 1.5rem;
+    font-weight: 700;
     padding-bottom: 2rem;
 }
 
@@ -52,30 +56,30 @@
 
 @media screen and (min-width: 768px) {
     .formulario__titulo {
-        font-size: 3rem;
+        font-size: 40px;
     }
 
     .formulario__texto {
-        font-size: 2rem;
+        font-size: 35px;
     }
 
     .formulario__etiqueta{
-        font-size: 2rem;
+        font-size: 30px;
     }
 
     .formulario__campo {
         width: 600px;
         padding: 20px 10px;
-        font-size: 1.75rem;
+        font-size: 30px;
     }
 
     .formulario-campo-texto {
-        font-size: 2rem;
+        font-size: 30px;
     }
 
     .formulario__botao {
         width: 600px;
-        font-size: 2rem;
+        font-size: 35px;
     }
 }
 

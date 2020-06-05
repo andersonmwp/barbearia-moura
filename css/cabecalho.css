@@ -37,21 +37,6 @@
     left: 0;
 }
 
-.menu-ativo {
-    background: rgba(0, 0, 0, 0.4);
-
-    content: "";
-
-    display: block;
-    position: fixed;
-
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    
-}
-
 .cabecalho__nav-link {
     align-items: center;
     display: flex;

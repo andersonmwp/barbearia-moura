@@ -24,31 +24,31 @@
             <nav class="cabecalho__nav">
                 <i class="fas fa-window-close menu-fechar icon-nav"></i>
                 <ul>
-                    <li><a class="cabecalho__nav-link" href="#">Início</a></li>
-                    <li><a class="cabecalho__nav-link" href="#">Quem Somos</a></li>
-                    <li><a class="cabecalho__nav-link" href="#">Preços</a></li>
-                    <li><a class="cabecalho__nav-link" href="#">Localização</a></li>
-                    <li><a class="cabecalho__nav-link" href="#">Contato</a></li>
-                    <li><a class="cabecalho__nav-link" href="#"><i class="fab fa-instagram-square icon-social"></i></a></li>
-                    <li><a class="cabecalho__nav-link" href="#"><i class="fab fa-facebook-square icon-social"></i></a></li>
-                    <li><a class="cabecalho__nav-link" href="#"><i class="fab fa-twitter-square icon-social"></i></a></li>
+                    <li><a class="cabecalho__nav-link" href="#home">Início</a></li>
+                    <li><a class="cabecalho__nav-link" href="#quem-somos">Quem Somos</a></li>
+                    <li><a class="cabecalho__nav-link" href="#precos">Preços</a></li>
+                    <li><a class="cabecalho__nav-link" href="#localizacao">Localização</a></li>
+                    <li><a class="cabecalho__nav-link" href="#contato">Contato</a></li>
+                    <li><a class="cabecalho__nav-link" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square icon-social"></i></a></li>
+                    <li><a class="cabecalho__nav-link" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square icon-social"></i></a></li>
+                    <li><a class="cabecalho__nav-link" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square icon-social"></i></a></li>
                 </ul>
             </nav>
 
-            <h1 class="cabecalho__titulo">barbearia moura</h1>
+            <h1 class="cabecalho__titulo" id="home">barbearia moura</h1>
         </section>
     </header>
     <main>
         <section class="chamada">
             <img class="chamada__logo" src="img/logo.png" alt="logo da barbearia moura">
             <h2 class="chamada__texto">A barbearia certa para o seu estilo!</h2>
-            <a class="chamada__botao botao" href="#">Conheça mais</a>
+            <a class="chamada__botao botao" href="#precos">Conheça mais</a>
         </section>
 
         <section class="painel container">
-            <h2 class="painel__titulo">Quem Somos</h2>
+            <h2 class="painel__titulo" id="quem-somos">Quem Somos</h2>
             
-            <div class="painel__desktop" id="quem">
+            <div class="painel__desktop">
                 <figure class="painel__cartao">
                     <img class="painel__cartao-imagem" src="img/salao-principal.jpg" alt="foto do salão da barbearia onde se cortam os cabelos">
                     <figcaption class="painel__cartao-texto">Somos uma tradicional barbearia ao estilo anos 70 e estamos localizados no coração de São Paulo</figcaption>
@@ -65,7 +65,7 @@
         </section>
 
         <section class="preco__painel container">
-            <h2 class="preco__painel-titulo">Preços</h2>
+            <h2 class="preco__painel-titulo" id="precos">Preços</h2>
             <p class="preco__painel-texto">Escolha aquele estilo que sempre quis para o seu cabelo e barba!</p>
 
             <div class="preco__cartao">
@@ -96,7 +96,7 @@
         </section>
 
         <section class="localidade container">
-            <h2 class="localidade__titulo">Localidade</h2>
+            <h2 class="localidade__titulo" id="localizacao">Localidade</h2>
             <p class="localidade__texto">Estamos localizados na Avenida mais famosa de São Paulo, em frente ao Trianon-Masp, uma baita localização!</p>
             <p class="localidade__texto">Avenida Paulista, Nº **** na Bela Vista</p>
 
@@ -104,7 +104,7 @@
         </section>
 
         <section class="formulario">
-            <h2 class="formulario__titulo">Contato</h2>
+            <h2 class="formulario__titulo" id="contato">Contato</h2>
             <p class="formulario__texto">Entre em contato conosco!</p>
 
             <form class="formulario__painel" method="POST" action="">
@@ -125,7 +125,7 @@
     </main>
     <footer>
         <section class="rodape">
-            <a href="#"><img class="rodape__imagem" src="img/logo.png" alt="logo da barbearia moura"></a>
+            <a href="#home"><img class="rodape__imagem" src="img/logo.png" alt="logo da barbearia moura"></a>
             <p class="rodape__texto">Copyright &copy; Anderson Moura</p>
         </section>
     </footer>
