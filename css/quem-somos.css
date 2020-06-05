@@ -1,52 +1,40 @@
 .painel {
     align-items: center;
-
     background: var(--cor-secundaria);
-
     display: flex;
-
     flex-direction: column;
     justify-content: center;
 }
 
 .painel__titulo {
+    background: #000000;
+    color: #ffffff;
+    font-family: var(--fonte-titulo);
     font-size: 2rem;
     font-weight: 700;
-    font-family: var(--fonte-titulo);
-
-    text-transform: uppercase;
-
     margin: 50px 0;
     padding: 10px;
-
-    background: #000000;
-    
-    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .painel__cartao {
-    display: flex;
-
     align-items: center;
-
+    box-sizing: border-box;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .painel__cartao-imagem {
     padding-bottom: 15px;
-
     width: 100%; 
 }
 
 .painel__cartao-texto {
-    font-size: 1.5rem;
-
     box-sizing: border-box;
-
-    text-align: center;
-
+    font-size: 1.5rem;
     padding-bottom: 55px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,35 +44,29 @@
 
     .painel__cartao-texto {
         font-size: 35px;
-
         padding-bottom: 100px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .painel__desktop {
+        align-items:flex-start;
         display: flex;
-
-        flex-direction: row;
-
-        justify-content: center;
-
-        align-items: initial;
+        flex-direction: row; 
     }
 
     .painel__cartao {
+      justify-content: space-evenly;
       margin: 0 10px;
     }
    
     .painel__cartao-imagem  {
-        width: 300px;
         height: 300px;
-
+        width: 300px;
     }
 
     .painel__cartao-texto {
         font-size: 25px;
-        
         padding-bottom: 100px;
     }
 }

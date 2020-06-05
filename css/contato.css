@@ -1,8 +1,8 @@
 .formulario {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background: var(--cor-padrao);
+    display: flex;
+    flex-direction: column;
 }
 
 .formulario__painel {
@@ -11,14 +11,14 @@
 }
 
 .formulario__titulo {
+    background: #000000;
+    color: #E5D700; 
+    font-family: var(--fonte-titulo);
     font-size: 2rem;
     font-weight: 700;
-    font-family: var(--fonte-titulo);
-    text-transform: uppercase;
     margin: 2rem 0;
-    background: #000000;
     padding: 10px;
-    color: #E5D700; 
+    text-transform: uppercase;
 }
 
 .formulario__texto {
@@ -34,24 +34,24 @@
 }
 
 .formulario__campo {
-    width: 300px;
-    padding: 10px;
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 300px;
 }
 
 .formulario-campo-texto {
     font-size: 1.2rem;
-    padding: 10px;
     margin-bottom: 1rem;
+    padding: 10px;
 }
 
 .formulario__botao {
+    background: var(--cor-padrao);
+    border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
-    border-radius: 5px;
-    background: var(--cor-padrao);
 }
 
 @media screen and (min-width: 768px) {
@@ -68,9 +68,9 @@
     }
 
     .formulario__campo {
-        width: 600px;
-        padding: 20px 10px;
         font-size: 30px;
+        padding: 20px 10px;
+        width: 600px;
     }
 
     .formulario-campo-texto {
@@ -78,15 +78,15 @@
     }
 
     .formulario__botao {
-        width: 600px;
         font-size: 35px;
+        width: 600px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .formulario__campo {
-        padding: 10px;
         font-size: 20px;
+        padding: 10px;
     }
 
     .formulario__etiqueta{

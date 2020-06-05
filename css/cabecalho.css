@@ -2,14 +2,12 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
-
     padding: 10px;
 }
 
 .cabecalho__titulo {
     font-size: 1.8rem;
-    font-weight: 700;
-    
+    font-weight: 700;   
     text-transform: uppercase;
 }
 
@@ -41,12 +39,9 @@
     align-items: center;
     display: flex;
     justify-content: center;
-
     font-size: 1.75rem;
     font-weight: 700;
-
     padding: .75rem;
-
     text-transform: uppercase;
 }
 
@@ -61,13 +56,11 @@
 @media screen and (min-width: 768px) {
     .cabecalho {
        justify-content: flex-start;
-
        margin: 0 30px;
     }
 
     .cabecalho__titulo {
         padding-left: 70px;
-
         font-size: 3rem;
     }
 
@@ -77,13 +70,11 @@
     
     .cabecalho__nav-link {
         font-size: 1.75rem;  
-
         padding-bottom: 10px;
     }
     
     .icon-social {
         font-size: 4rem;
-
         padding-bottom: 10px;
     }
 }

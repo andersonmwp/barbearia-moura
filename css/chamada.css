@@ -1,32 +1,32 @@
 .chamada {
     align-items: center;
-    display: flex;
     background: var(--cor-padrao);
+    display: flex;
     flex-direction: column;
 }
 
 .chamada__logo {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 50%;
     max-width: 400px;
+    width: 50%;
 }
 
 .chamada__texto {
+    background: #000000;
+    color: #E5D700;
     font-size: 2.5rem;
     font-weight: 700;
     margin: 20px 10px;
-    text-align: center;
-    background: #000000;
     padding: 10px;
-    color: #E5D700;
+    text-align: center;
 }
 
 .chamada__botao {
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
     width: 300px;
 }
 
@@ -37,10 +37,9 @@
     }
 
     .chamada__botao {
-        font-size: 25px;
+        font-size: 35px;
         padding: 20px 0;
         width: 400px;
-        font-size: 35px;
     }
 }
 
