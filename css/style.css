@@ -17,6 +17,7 @@ body {
     border: 2px solid #fff;
     border-radius: 5px;
     box-sizing: border-box;
+    cursor: pointer;
     display: block;
     padding: 1rem 2rem;
     max-width: 700px;
