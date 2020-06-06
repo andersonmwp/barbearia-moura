@@ -50,6 +50,7 @@
 }
 
 .icon-nav {
+    cursor: pointer;
     font-size: 3rem;
 }
 
