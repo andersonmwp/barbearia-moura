@@ -7,8 +7,6 @@
 }
 
 .painel__titulo {
-    background: #000000;
-    color: #ffffff;
     font-family: var(--fonte-titulo);
     font-size: 2rem;
     font-weight: 700;

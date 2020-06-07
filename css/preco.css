@@ -7,8 +7,6 @@
 }
 
 .preco__painel-titulo {
-    background: #000000;
-    color: #E5D700;
     font-family: var(--fonte-titulo);
     font-size: 2rem; 
     font-weight: 700;
